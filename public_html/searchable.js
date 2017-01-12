@@ -61,7 +61,7 @@ try {
             tr.append($("<td/>").html(window.searchableRESULT[key].eventType === "NEW" ? "Добавлен" : "Удален"));
             tr.append($("<td/>").html(window.searchableRESULT[key].searchBaseDate));
             tr.append($("<td/>").html(window.searchableRESULT[key].lastAccess));
-            tr.append($("<td/>").html(window.searchableRESULT[key].title === "" ? "! ПУСТОЙ TITLE !" : window.searchableRESULT[key].title));
+            tr.append($("<td/>").html(window.searchableRESULT[key].title));
 
             // Если есть объект statusInfo можем вывести доп. данные
             if (window.searchableRESULT[key].statusInfo !== undefined) {
