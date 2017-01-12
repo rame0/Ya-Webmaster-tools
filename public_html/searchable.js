@@ -1,5 +1,5 @@
 // Bookmarklet
-//javascript:!function(){void 0==window.getSearchableTable?(arr=new Uint8Array(5),window.crypto.getRandomValues(arr),s=document.createElement("script"),s.src="https://raw.githubusercontent.com/rame0/Ya-Webmaster-tools/master/public_html/searchable.js?"+Array.from(arr).join(""),document.head.appendChild(s)):window.getSearchableTable()}();
+//javascript:!function(){void 0==window.getSearchableTable?(arr=new Uint8Array(5),window.crypto.getRandomValues(arr),s=document.createElement("script"),s.src="https://rame0.github.io/Ya-Webmaster-tools/public_html/searchable.js?"+Array.from(arr).join(""),document.head.appendChild(s)):window.getSearchableTable()}();
 
 
 try {
